@@ -68,12 +68,17 @@ While server-side device detection has its uses, for image loading in a responsi
 
 ## A more complex example
 
+For this example, I'm using a Nuxt 3 project along with my favorite eCommerce UI library, [Storefront UI](https://docs.storefrontui.io/v2/).
+
 ### The Challenge
 What if I need to create something more than just a static image, what about something as complex as a carousel? And to boot, what if we want to load different images into that carousel based on the size of the browser window?
 
 ### The Solution
 The `<picture>` approach works quite well in this scenario. Let's use a Nuxt 3 App for example. We can create a component that will load the images based on the size of the browser window. There are many edge cases we're ignoring here so we can focus on the topic at hand. 
 
+Let's focus on the carousel: 
+
+`~/components/Carousel.vue`
 ```html
 <template>
   <div class="carousel">
@@ -213,6 +218,21 @@ const goToItem = (index) => {
 }
 </style>
 
+```
+
+This carousel will fit nicely with the rest of my UI:
+
+`~/pages/index.vue`
+```html
+<template>
+  <div class="flex-col align-middle">
+    <Carousel />
+    <NewsLetterForm />
+    <div class=" flex justify-center">
+      <Banner />
+    </div>
+  </div>
+</template>
 ```
 
 You can get your hands on the code here: https://github.com/rohrig/carosel-multisize-image-example
