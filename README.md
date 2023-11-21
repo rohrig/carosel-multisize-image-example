@@ -4,7 +4,7 @@
 Responsive Web Design (RWD) is essential in today's multi-device world. A key challenge in RWD is choosing and loading the right image size based on the device's screen size. This ensures both the quality of the image and the performance of the website.
 
 ## Using `<picture>` element example
-![Optimize](https://github.com/rohrig/carosel-multisize-image-example/assets/45824492/281ea059-560d-40f3-9f2d-820ec6555133)
+![Optimize](https://github.com/rohrig/carosel-multisize-image-example/assets/45824492/5617d5d2-e37d-454c-8331-207b556bcdda)
 
 
 ### The Role of the `<picture>` Element in RWD
