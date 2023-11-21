@@ -72,7 +72,7 @@ While server-side device detection has its uses, for image loading in a responsi
 What if I need to create something more than just a static image, what about something as complex as a carousel? And to boot, what if we want to load different images into that carousel based on the size of the browser window?
 
 ### The Solution
-The <picture> approach works quite well in this scenario. Let's use a Nuxt 3 App for example. We can create a component that will load the images based on the size of the browser window. There are many edge cases we're ignoring here so we can focus on the topic at hand. 
+The `<picture>` approach works quite well in this scenario. Let's use a Nuxt 3 App for example. We can create a component that will load the images based on the size of the browser window. There are many edge cases we're ignoring here so we can focus on the topic at hand. 
 
 ```html
 <template>
