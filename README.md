@@ -45,7 +45,7 @@ Consider this Vue.js code snippet:
 
 In responsive web design, effectively managing images is crucial. The `<picture>` element is a powerful tool that helps in loading the right image for the right device, enhancing both the user experience and the website’s performance. As we continue to navigate the challenges of RWD, understanding and utilizing these elements will be key to creating versatile and efficient web designs. Stay tuned for more insights in this series on responsive web design.
 
-## Consider alternative image approaches
+## Considering alternative approaches
 
 ### Why not just load images based on device detection?
 
@@ -69,7 +69,7 @@ While server-side device detection has its uses, for image loading in a responsi
 ## A more complex example
 
 ### The Challenge
-What if I need to create something more than just a static image, what about something as complex as a carousel? And to boot, what if we want to load differnt images into that carousel based on the size of the browser window?
+What if I need to create something more than just a static image, what about something as complex as a carousel? And to boot, what if we want to load different images into that carousel based on the size of the browser window?
 
 ### The Solution
 The <picture> approach works quite well in this scenario. Let's use a Nuxt 3 App for example. We can create a component that will load the images based on the size of the browser window. There are many edge cases we're ignoring here so we can focus on the topic at hand. 
