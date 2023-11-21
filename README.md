@@ -214,3 +214,7 @@ const goToItem = (index) => {
 </style>
 
 ```
+
+You can get your hands on the code here: https://github.com/rohrig/carosel-multisize-image-example
+
+While it might be tempting to create components based on the device, it's more efficient and future-proof to design them responsively, allowing for seamless adaptation to different screen sizes and resolutions. This approach ensures a consistent user experience across all devices and reduces the need for device-specific code maintenance.
